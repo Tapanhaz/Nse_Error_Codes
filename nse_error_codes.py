@@ -33,9 +33,10 @@ def check_error(
         query_parts.append(f"Error_ID in ['{error_id}']")
 
     query = ' and '.join(query_parts)
-    result = df.query(query).iloc[[0]]
+    result = df.query(query)
 
     if not result.empty:
+        result = result.iloc[[0]]
         result.columns = ["segment", "error_code", "error_id", "description"]
         output = result.to_dict(orient='records')[0]        
         return output
