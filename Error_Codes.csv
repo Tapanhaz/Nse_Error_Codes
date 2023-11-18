@@ -1,0 +1,532 @@
+Segment,Error_Code,Error_ID,Description
+CM,16000,ERR_MARKET_NOT_OPEN,The trading system is not available for trading.
+CM,16001,ERR_INVALID_USER_TYPE,Invalid User Type
+CM,16003,ERR_BAD_TRANSACTION_CODE,Erroneous transaction code received.
+CM,16004,ERR_USER_ALREADY_SIGNED_ON,User already signed on.
+CM,16006,ERR_INVALID_SIGNON,"Invalid sign-on, Please try again."
+CM,16007,ERR_SIGNON_NOT_POSSIBLE,Signing on to the trading system is restricted. Please try later on.
+CM,16012,ERR_INVALID_SYMBOL,Invalid symbol/series.
+CM,16015,NOT_YOUR_FILL,Invalid trade cancel request.
+CM,16035,ERR_SECURITY_NOT_AVAILABLE,Security is unavailable for trading at this time. Please try later.
+CM,16041,ERR_INVALID_BROKER_OR_BRANCH,Trading Member does not exist in the system.
+CM,16042,ERR_USER_NOT_FOUND,Dealer does not exist in the system.
+CM,16052,FUNCTION_NOT_AVAILABLE,When Preopen trade cancel request is rejected
+CM,16053,ERR_PASSWORD_HAS_EXPIRED,"Your password has expired, must be changed."
+CM,16054,ERR_INVALID_BRANCH,Branch does not exist in the system.
+CM,16056,ERR_PROGRAM_ERROR,Program error.
+CM,16060,ORDER_NOT_FOUND,Modified/Cancelled order not found
+CM,16098,ERR_INVALID_BUYER_USER_ID,Invalid trader ID for buyer.
+CM,16099,ERR_INVALID_SELLER_USER_ID,Invalid trader ID for seller.
+CM,16104,ERR_SYSTEM_ERROR,System could not complete your transaction -ADMIN notified.
+CM,16115,ERR_MOD_CAN_REJECT,Order Modification/ Cancellation rejected by the system.
+CM,16123,ERR_CANT_COMPLETE_YOUR_REQUEST,System not able to complete your request. Please try again.
+CM,16134,ERR_USER_IS_DISABLED,This Dealer is disabled. Please call the Exchange.
+CM,16145,OE_INVALID_STOCK_STATUS,Security is not eligible to trade in Preopen.
+CM,16148,ERR_INVALID_USER_ID,Invalid Dealer ID entered.
+CM,16154,ERR_INVALID_TRADER_ID,Invalid Trader ID entered.
+CM,16169,ERR_ATO_IN_OPEN,Order priced ATO cannot be entered when a security is open.
+CM,16197,ORD_NOT_ALLOWED_IN_PREOPEN,Order Entry or Modification not allowed in preopen.
+CM,16247,INVALID_PRICE,Invalid price in the price field.
+CM,16251,ERR_TRADE_MOD_DIFF_VOL,Trade modification with different quantities is received.
+CM,16252,CXLD_TRADE_MOD_REQUEST,Cancelled the trade modify request.
+CM,16260,OE_DELETED_BUT_EXISTS,Record is there in master file but delete flag is set.
+CM,16273,ERR_NOT_FOUND,Does not exist.
+CM,16278,ERR_MARKETS_CLOSED,The markets have not been opened for trading.
+CM,16279,ERR_SECURITY_NOT_ADMITTED,The security has not yet been admitted for trading.
+CM,16280,ERR_SECURITY_MATURED,The security has matured.
+CM,16281,ERR_SECURITY_EXPELLED,The security has been expelled.
+CM,16282,ERR_QUANTITY_EXCEEDS_ISSUED_CAPITAL,The order quantity is greater than the issued capital.
+CM,16283,ERR_PRICE_NOT_MULT_TICK_SIZE,The order price is not multiple of the ticksize.
+CM,16284,ERR_PRICE_EXCEEDS_DAY_MIN_MAX,The order price is out of the day‟s price range.
+CM,16285,ERR_BROKER_NOT_ACTIVE,The broker is not active.
+CM,16303,OE_AUCTION_PENDING,Request denied. Pending auctions.
+CM,16307,ERR_ QUANTITY_FREEZE_CANCELLED,The order is canceled due to quantity freeze.
+CM,16308,ERR_PRICE_FREEZE_CANCELLED,The order is canceled due to price freeze.
+CM,16310,AON_VOLUME_NOT_ENOUGH,AON volume not enough
+CM,16311,ERR_SOLICITOR_PERIOD_OVER,The Solicitor period for the Auction is over.
+CM,16312,ERR_COMPETITIOR_PERIOD_OVER,The Competitor period for the Auction is over.
+CM,16313,OE_AUC_PERIOD_GREATER,The Auction period will cross Market Close time.
+CM,16314,OE_AUC_NOT_CAN,The Auction cannot be cancelled.
+CM,16315,ERR_LIMIT_WORSE_TRIGGER,The limit price is worse than the trigger price.
+CM,16316,ERR_TRG_PRICE_NOT_MULT_TICK_SIZE,The trigger price is not a multiple of tick size.
+CM,16317,ERR_NO_AON_IN_LIMITS,AON attribute not allowed.
+CM,16318,ERR_NO_MF_IN_LIMITS,MF attribute not allowed.
+CM,16319,ERR_NO_AON_IN_SECURITY,AON attribute not allowed at security level.
+CM,16320,ERR_NO_MF_IN_SECURITY,MF attribute not allowed at security level.
+CM,16321,ERR_MF_EXCEEDS_DQ,MF quantity is greater than Disclosed quantity.
+CM,16322,ERR_MF_NOT_MULT_BOARD_LOT,MF quantity is not a multiple of regular lot.
+CM,16323,ERR_MF_EXCEEDS_ORIGINAL_ QUANTITY,MF quantity is greater than Original quantity.
+CM,16324,ERR_DQ_EXCEEDS_ORIGINAL_ QUANTITY,Disclosed quantity is greater than Original quantity.
+CM,16325,ERR_DQ_NOT_MULT_BOARD_LOT,Disclosed quantity is not a multiple of regular lot.
+CM,16326,ERR_GTD_EXCEEDS_LIMIT,GTD is greater than that specified at System.
+CM,16327,OE_QUANTITY_GERATER_RL,Quantity is greater than Regular lot size.
+CM,16328,ERR_QUANTITY_NOT_MULT_BOARD_LOT,Quantity is not a multiple of regular lot.
+CM,16329,ERR_BROKER_NOT_PERMITTED_IN_MKT,Trading Member not permitted in the market.
+CM,16330,ERR_SECURITY_IS_SUSPENDED,Security is suspended.
+CM,16332,CXL_REMAIN_ACTIVE_ORDER,Remaining passive order has to be cancelled.
+CM,16333,ERR_BRANCH_LIMIT_EXCEEDED,Branch Order Value Limit is exceeded.
+CM,16343,OE_ORD_CAN_CHANGED,The order to be cancelled has changed.
+CM,16344,OE_ORD_CANNOT_CANCEL,The order cannot be cancelled.
+CM,16345,OE_INIT_ORD_CANCEL,Initiator order cannot be cancelled.
+CM,16346,OE_ORD_CANNOT_MODIFY,Order cannot be modified.
+CM,16348,ERR_TRADING_NOT_ALLOWED,Trading is not allowed in this market.
+CM,16357,OE_NT_REJECTED,Order entered for negotiated trade is cancelled.
+CM,16363,CHG_ST_EXISTS,New status requested should not be same as existing one.
+CM,16369,OE_SECURITY_IN_PREOPEN,The security status is preopen.
+CM,16372,ERR_USER_TYPE_INQUIRY,Order entry not allowed for user as it is of inquiry type.
+CM,16379,ERR_SOLICITION_NOT_ALLOWED,The broker is not allowed to enter soliciting orders.
+CM,16383,ERR_AUCTION_FINISHED,Trading in this auction is finished.
+CM,16387,ERR_NO_TRADING_IN_SECURITY,Security is not allowed to trade in this market.
+CM,16388,ERR_FOK_ORDER_CANCELLED,When Preopen unmatched orders are cancelled by  the system after preopen session ends. When normal market unmatched orders are cancelled by the system if order collection phase is planned after circuit hit.
+CM,16392,ERR_TURNOVER_LIMIT_NOT_SET,Turnover limit not provided. Please contact Exchange.
+CM,16395,CANNOT_CANCEL_NEGOTIATED_TRADES,The Negotiated trades cannot be cancelled
+CM,16400,ERR_DQ_EXCEEDS_LIMIT,DQ has exceeded limit set in control.
+CM,16403,ERR_WRONG_LOGIN_ADDRESS,You are trying to sign on from a different location. Sign on is not allowed.
+CM,16404,ERR_ADMIN_SUSP_CANCELLED,Order is cancelled due to freeze admin suspension.
+CM,16411,ERR_INVALID_PRO_CLIENT,Pro-client can be either Pro or Client only.
+CM,16412,ERR_INVALID_NEW_VOLUME,New volume should be less than the traded volume.
+CM,16413,ERR_INVALID_BUY_SELL,Requested by can be BUY or SELL or BOTH.
+CM,16414,ERR_INVALID_INST,Invalid combination of book type and instructions (order_type).
+CM,16415,ERR_INVALID_ORDER_PARAM,Invalid combination of MF / AON / Disclosed Volume
+CM,16416,ERR_INVALID_CP_ID,Invalid counter broker Id.
+CM,16417,ERR_NNF_REQ_EXCEEDED,Number of NNF requests exceeded.
+CM,16418,ERR_INVALID_ORDER,Order entered has invalid data.
+CM,16419,ERR _CXLED_TRADE_CXL_REQ,Cancelled trade cancel request.
+CM,16420,ERR_INVALID_ALPHA_CHAR,Alpha char must be the same as first two chars of symbol.
+CM,16421,ERR_TRADER_CANT_INIT_AUCTION,"Only control can initiate auctions, not trader."
+CM,16422,ERR_INVALID_BOOK_TYPE,Book type should be between 1(RL) and 7(AU).
+CM,16423,ERR_INVALID_TRIGGER_PRICE,Invalid trigger price entered.
+CM,16424,ERR_INVALID_MSG_LENGTH,Message length is invalid.
+CM,16425,ERR_INVALID_PARTICIPANT,Participant does not exist.
+CM,16426,ERR_PARTICIPANT_AND_VOLUME_CHANGED,Participant and volume cannot be changed simultaneously.
+CM,16430,INVALID_AUCTION_INQUIRY,Invalid auction inquiry request.
+CM,16431,INVALID_ACCOUNT,Invalid Account in the Account field
+CM,16436,ORDER_VALUE_LIMIT_EXCEEDED,The order value limit has exceeded
+CM,16439,DQ_NOT_ALLOWED_IN_PREOPEN,DQ Orders are not allowed in preopen.
+CM,16440,SERIES_NOT_ALLOWED_IN_PREOPEN,Order Entry is not allowed in preopen for the series.
+CM,16441,ST_NOT_ALLOWED_IN_PREOPEN,ST Orders are not allowed in preopen.
+CM,16442,ORDER_VALUE_EXCEEDS_ORDER_VALUE_LIMIT,The current placed order‟s value is more than users order value limit
+CM,16450,ACCOUNT_MANDATORY,Account number is mandatory in Account field
+CM,16473,OE_BL_MKT_ORDERS_IN_CLOSING,Only board lot market orders are allowed in Closing Session.
+CM,16482,ORDER_CANCELED_DUE_TO_SECURITY_SUSPENSION,The order has been cancelled as security has been suspended
+CM,16483,ORDER_CANCELED_DUE_TO_PARTICIPANT_SUSPENSION,The order has been cancelled as participant has been suspended
+CM,16530,BUY_ORDER_VALUE_LIMIT_EXCEEDED,Users buy order value limit has exceeded.
+CM,16531,SELL_ORDER_VALUE_LIMIT_ EXCEEDED,The order value limit for the sell quantity has exceeded its limit
+CM,16534,NO_BUY_BACK_RUNNING,No buyback running for that sercurity.
+CM,16535,PARTIAL_ORDER_REJECTED,Order partially rejected. Remaining order quantity specified rejected due to system error.
+CM,16536,QUICK_CXL_REJECTED,Quick Cancel request rejected due to system error. Retry Quick Cancel Request
+CM,16567,ERR_FRZ_REJECT_FOR_CLOSEOUT,This error code will be returned when a Close out order goes into freeze.
+CM,16568,ERR_CLOSEOUT_NOT_ALLOWED,This error code is returned when a Close out order entry is not allowed.
+CM,16569,ERR_CLOSEOUT_ORDER_REJECT,This error code is returned when a Close out order is rejected by the system.
+CM,16571,ERR_CLOSEOUT_TRDMOD_REJECT,This error code will be returned when a user under a broker in „Close out‟ state tries to modifyl Trade.
+CM,16592,ERR_SYS_REJECT,Order Entry is not allowed
+CM,16597,RMS_ORDER_REJECT,Order entry / Modification rejected by the Exchange
+CM,16598,ERR_SEC_REJECT ,Order Entry is not allowed
+CM,16601,ERR_PREOPEN_ORDER_REJECT,Request Rejected by the exchange
+CM,16603,MARKET_ORDER_NOT_ALLOWED_IN_BT_SESSION,Market order not allowed in Block Trade session
+CM,16604,DQ_ORDER_NOT_ALLOWED_IN_CLOSING,Disclosed Quantity (DQ) order not allowed in closing session
+CM,16761,ERR_ACCNT_DISABLE_TRADING,The account is debarred from trading (New error code defined for order entry/Modification due to debarred Client.)
+CM,17017,ERR_VOLUNTARY_CLOSEOUT_ORDR_REJECT,Order Cancelled due to Voluntary Closeout.
+FO,293,INVALID_INSTRUMENT_TYPE,Invalid instrument type.
+FO,509,ORDER_NUMBER_INVALID,Order does not exit.
+FO,8049,ORD_CXL_INITIATOR_AUC_NOT_ALLOWED,Initiator is not allowed to cancel auction order.
+FO,8485,AUCTION_NUMBER_INVALID,Auction number does not exit
+FO,16000,MARKET_CLOSED,The trading system is not available for trading.
+FO,16001,e$invalid_user,Header user ID is not equal to user ID in the order packet.
+FO,16003,OE_BAD_TRANS_CODE,System error was encountered. Please call the Exchange.
+FO,16004,E$user_already_signed_on,The user is already signed on.
+FO,16005,E$invalid_signoff,System error while trying to sign-off. Please call the Exchange.
+FO,16006,E$invalid_signon,Invalid sign-on. Please try again.
+FO,16007,e$signon_not_possible,Signing onto the trading system is restricted. Please try later on.
+FO,16012,ERR_INVALID_SYMBOL,Invalid contract descriptor
+FO,16014,e$not_your_order,This order is not yours.
+FO,16015,E$not_your_fill,This trade is not yours.
+FO,16016,E$invalid_fill_number,Invalid trade number.
+FO,16019,E$stock_not_found,Stock not found.
+FO,16035,SECURITY_NOT_AVAILABLE,Security is unavailable for trading at this time. Please try later.
+FO,16041,BROKER_NOT_FOUND,Trading member does not exit in the system.
+FO,16042,USER_NOT_FOUND,Dealer does not exist in the system.
+FO,16043,DUPLICATE_RECORD,This record already exits on the NEAT system.
+FO,16044,e$order_modified,Order has been modified. Please try again.
+FO,16049,STOCK_SUSPENDED,Stock is suspended.
+FO,16052,ERR_FUNCTION_NOT_AVAILABLE,Function Not Available
+FO,16053,e$change_password,"Your password has expired, must be changed."
+FO,16054,ERR_INVALID_BRANCH,Invalid branch for trading member.
+FO,16056,OE_PROGRAM_ERROR,Program error.
+FO,16086,e$dup_trd_cxl_request,Duplicate trade cancel request.
+FO,16098,ERR_INVALID_BUYER_USER_ID,Invalid trader ID for buyer.
+FO,16099,ERR_INVALID_SELLER_USER_ID,Invalid trader ID for buyer.
+FO,16100,e$invalid_version,Your system version has not been updated.
+FO,16104,OE_SYSTEM_ERROR,System could not complete your transaction - Admin notified.
+FO,16148,ERR_INVALID_USER_ID,Invalid Dealer ID entered.
+FO,16154,ERR_INVALID_TRADER_ID,Invalid Trader ID entered.
+FO,16169,OE_ATO_IN_OPEN,Order priced ATO cannot be entered when a security is open.
+FO,16198,e$dup_request,Duplicate modification or cancellation request for the same trade has been encountered.
+FO,16227,e$only_cp_allowed,Only market orders are allowed in postclose.
+FO,16228,e$sl_mit_nt_not_allowed_pclose,"SL, MIT or NT orders are not allowed during Post Close."
+FO,16229,e$gtc_gtd_ord_not_allowed_pclose,GTC GTD or GTDays orders are Not Allowed during Post Close.
+FO,16230,OE_CONT_MOD_NOT_ALLOWED,Continuous session orders cannot be modified.
+FO,16231,TRD_CONT_MOD_NOT_ALLOWED,Continuous session trades cannot be changed.
+FO,16233,STR_PRO_PARTIVIPANT_INVALID,Proprietary requests cannot be made for participant.
+FO,16247,ERROR_INVALID_PRICE,“Invalid Price”
+FO,16251,OE_DIFF_TRD_MOD_VOL,Trade modification with different quantities is received.
+FO,16273,RECORD_NOT_FOUND,Record does not exit.
+FO,16278,OE_MARKETS_CLOSED,The markets have not been opened for trading.
+FO,16279,OE_SECURITY_NOT_ADMITTED,The contract has not yet been admitted for trading.
+FO,16280,OE_SECURITY_MATURED,The Contract has matured.
+FO,16281,OE_SECURITY_EXPELLED,The security has been expelled.
+FO,16282,OE_ISSUED_CAP_EXCEEDS,The order quantity is greater than the issued capital.
+FO,16283,OE_PRICE_NOT_MULT,The order price is not multiple of the tick size.
+FO,16284,OE_PRICE_EXCEEDS_DAY_MIN_MAX,The order price is out of the day‟s price range.
+FO,16285,OE_IS_NOT_ACTIVE,The broker is not active.
+FO,16300,e$system_wrong_state,System is in a wrong state to make the requested change.
+FO,16303,OE_AUCTION_PENDING,The auction is pending.
+FO,16307,OE_QTY_FREEZE_CAN,The order has been canceled due to quantity freeze.
+FO,16308,OE_PRICE_FREEZE_CAN,The order has been canceled due to price freeze.
+FO,16311,OE_SOL_PERIOD_OVER,The Solicitor period for the Auction is over.
+FO,16312,OE_COMP_PERIOD_OVER,The Competitor period for the Auction is over.
+FO,16313,OE_AUC_PERIOD_GREATER,The Auction period will cross market close time.
+FO,16315,OE_LIMIT_TRIGGER,The limit price is worse than the trigger price.
+FO,16316,OE_TRIGGER_PRICE_NOT_MULT,The trigger price is not a multiple of tick size.
+FO,16317,OE_NO_AON_ATTRIB,AON attribute not allowed.
+FO,16318,OE_NO_MF_ATTRIB,MF attribute not allowed.
+FO,16319,OE_NO_AON_IN_ATTRIB1,AON attribute not allowed at Security level.
+FO,16320,OE_NO_MF_ATTRIB1,MF attribute not allowed at security level.
+FO,16321,OE_MF_GREATER_DISC,MF quantity is greater than disclosed quantity
+FO,16322,OE_MF_NOT_MULT,MF quantity is not a multiple of regular lot.
+FO,16323,OE_MF_GREATER_ORIGINAL,MF quantity is greater than Original quantity.
+FO,16324,OE_DISC_GREATER_ORIGINAL,Disclosed quantity is greater than Original quantity.
+FO,16325,OE_DISC_NOT_MULT,Disclosed quantity is not a multiple of regular lot.
+FO,16326,OE_GTD_GREATER,GTD is greater than that specified at the trading system.
+FO,16327,OE_QUANTITY_GERATER_RL,Odd lot quantity cannot be greater than or equal to regular lot size.
+FO,16328,OE_QUANTITY_NOT_MULT_RL,Quantity is not a multiple of regular lot.
+FO,16329,OE_BROKER_NOT_PERMITTED,Trading Member not permitted in the market.
+FO,16330,OE_IS_SUSPENDED,Security is suspended.
+FO,16333,OE_BRANCH_LI MIT_EXCEEDED,Branch Order Value Limit has been exceeded.
+FO,16343,OE_ORD_CAN_CHANGED,The order to be cancelled has changed.
+FO,16344,OE_ORD_CANNOT_CANCEL,The order cannot be cancelled.
+FO,16345,OE_INIT_ORD_CANCEL,Initiator order cannot be cancelled.
+FO,16346,OE_ORD_CANNOT_MODIFY,Order cannot be modified.
+FO,16348,ERR_TRADING_NOT_ALLOWED,Trading is not allowed in this market.
+FO,16357,OE_NT_REJECTED,Control has rejected the Negotiated Trade.
+FO,16363,CHG_ST_EXISTS,Status is in the required state.
+FO,16369,OE_SECURITY_IN_PREOPEN,Contract is in preopen.
+FO,16372,OE_INQ_NOT_ALLOWED,Order entry not allowed for user as it is of inquiry type.
+FO,16387,OE_SECURITY_INELIGIBLE,Contract not allowed to trader in.
+FO,16388,e$fok_order_cancelled,“Order Cancelled By System”
+FO,16392,TURNOVER_LIMIT_NOT_PROVIDED,Turnover limit not provided. Please contact Exchange.
+FO,16400,OE_MAX_DQ_ALLOWED,DQ is less than minimum quantity allowed.
+FO,16404,OE_ADMIN_SUSP_CAN,Order has been cancelled due to freeze admin suspension.
+FO,16405,e$invalid_buy_sell_type,BUY – SELL type entered is invalid.
+FO,16406,e$invalid_book_type,BOOK type entered is invalid.
+FO,16408,e$invalid_trigger_price,trigger_price entered has invalid characters.
+FO,16414,e$invalid_pro_client,Pro/Client should be either 1 (client) or 2 (broker).
+FO,16415,e$invalid_instructions,Invalid combination of book type and instructions (order_type).
+FO,16416,e$invalid_order_parameters,Invalid combination of mf/aon/disclosed volume.
+FO,16419,INVALID_ORDER,This error code will be returned for invalid data in the order packet.
+FO,16440,e$gtd_gt_maturity,GTD is greater than Maturity date.
+FO,16441,e$dq_ord_not_allowed_popen,DQ orders are not allowed in preopen
+FO,16442,e$st_ord_not_allowed_popen,ST orders are not allowed in preopen.
+FO,16443,e$ord_lim_exceeds_ord_val_lim,Order value exceeds the order limit value.
+FO,16445,SL_NOT_ALLOWED,Stop Loss orders are not allowed.
+FO,16446,MIT_NOT_ALLOWED,Market If Touched orders are not allowed.
+FO,16447,E$ord_not_allowed_in_preopen,Order entry not allowed in Pre-open.
+FO,16500,e$not_allowed,Ex/Pl not allowed.
+FO,16501,e$invalid_ex_pl_char,Invalid ExPl flag value.
+FO,16513,e$rejection_not_allowed,Ex/Pl rejection not allowed.
+FO,16514,e$not_modifiable,Not modifiable.
+FO,16518,e$tm_cm_does_not_exist,"Clearing member, Trading Member link not found."
+FO,16521,e$not_clg_mem,Not a clearing member.
+FO,16523,e$user_not_corp_mgr,User in not a corporate manager.
+FO,16532,e$pm_cm_invalid,Clearing member Participant link not found.
+FO,16533,e$corp_mgr_vu_mod,Enter either TM or Participant.
+FO,16541,e$invalid_participant,Participant is invalid.
+FO,16550,e$trade_approved_by_cm,Trade cannot be modified /cancelled. It has already been approved by CM.
+FO,16552,e$cm_stock_suspended,Stock has been suspended.
+FO,16554,e$broker_not_permitted_in_fut,Trading Member not permitted in Futures.
+FO,16555,e$broker_not_permitted_in_opt,„Trading Member not permitted in Options.‟
+FO,16556,e$qty_less_than_min_lot,Quantity less than the minimum lot size.
+FO,16557,e$disc_qty_less_than_min_lot,Disclose quantity less than the minimum lot size.
+FO,16558,e$mf_qty_less_than_min_lot,Minimum fill is less than the minimum lot size.
+FO,16560,e$already_rejected,The give up trade has already been rejected.
+FO,16561,e$nt_orders_not_allowed,Negotiated Orders not allowed.
+FO,16562,e$nt_trade_not_allowed,Negotiated Trade not allowed.
+FO,16566,e$inconsistent_broker_branch,User does not belong to Broker or Branch.
+FO,16570,M$post_close_start,The market is in post-close.
+FO,16571,M$post_close_ended,The Closing Session has ended.
+FO,16572,M$post_close_trades,Closing Session trades have been generated.
+FO,16573,e$invalid_msg_length,Message length is invalid.
+FO,16574,e$invalid_open_close_type,Open - Close type entered is invalid.
+FO,16576,e$nnf_inq_req_exceeded,No. of nnf inquiry requests exceeded.
+FO,16577,e$participant_and_volume_changed,Both participant and volume changed.
+FO,16578,e$invalid_cover_uncover_type,Cover - Uncover type entered is invalid.
+FO,16579,e$illegal_cm_id,Giveup requested for wrong CM ID.
+FO,16580,e$illegal_participant,Order does not belong to the given participant.
+FO,16581,e$invalid_fill_price,Invalid trade price.
+FO,16583,e$pro_no_participant,For Pro order participant entry not allowed.
+FO,16585,e$invalid_account_no,Not a valid account number.
+FO,16586,e$allow_no_participant_order,Participant Order Entry Not Allowed.
+FO,16589,M$delete_all_orders,All continuous session orders are being deleted now.
+FO,16594,TRADE_QTY_NOT_MOD_AFTER_GIVEUP,"After giveup approve/reject, trade quantity cannot be modified."
+FO,16596,e$tmid_cant_exercise_for_ptcpnt,Trading member cannot put Ex/Pl request for Participant.
+FO,16597,e$cum_ur_ord_val_limit_exceeded,Branch limit should be greater than sum of user limits.
+FO,16598,e$branch_ord_val_limit_exceeded,Branch limit should be greater than used limit.
+FO,16602,e$dealer_value_limit_exceeds,Dealer value limit exceeds the set limit.
+FO,16604,e$participant_not_found,Participant not found.
+FO,16605,e$either_leg_failed,One leg of spread/2L failed.
+FO,16606,e$qty_greater_than_freeze_qty,Quantity greater than Freeze quantity.
+FO,16607,e$spread_not_allowed,Spread not allowed.
+FO,16608,e$spread_allowed_only_in_open,Spread allowed only when market is open.
+FO,16609,e$spread_allowed_if_stock_open,Spread allowed only when stock is open.
+FO,16610,e$qty_should_be_same,Both legs should have same quantity.
+FO,16611,e$ord_mod_qty_frz_not_allowed,Modified order qty freeze not allowed.
+FO,16612,e$trade_rec_modified,The trade record has been modified.
+FO,16615,e$tm_order_cant_be_modified,Order cannot be modified.
+FO,16616,e$tm_order_cant_be_cancelled,Order can not be cancelled.
+FO,16617,e$tm_trade_cant_be_manipulated,Trade can not be manipulated.
+FO,16619,e$pcm_cant_ex_pl_for_himself,PCM can not ex_pl for himself.
+FO,16620,e$clearing_member_cant_expl,Ex/Pl by clearing member for TM not allowed.
+FO,16621,e$cant_manipulate_expl_of_tm,Clearing member cannot change the Ex/Pl requests placed by Trading Member.
+FO,16625,e$cm_of_tm_suspended,Clearing member is suspended.
+FO,16626,e$expdate_not_in_ascending_ord,Expiry date not in ascending order.
+FO,16627,e$invalid_contract_comb,Invalid contract combination.
+FO,16628,e$bm_cannot_cancel_cm_orders,Branch manager cannot cancel corporate manager‟s order.
+FO,16629,e$bm_cannot_cancel_bm_orders,Branch manager cannot cancel other branch manager‟s order.
+FO,16630,e$cm_cannot_cancel_cm_orders,Corporate manager cannot cancel other corporate manager‟s order.
+FO,16631,e$spread_in_different_underlying,Spread not allowed for different underlying.
+FO,16632,e$invalid_cli_ac,Cli A/c number cannot be modified as trading member ID.
+FO,16636,e$br_ord_limit_fut_buy_exceeded,Futures buy branch Order Value Limit has been exceeded.
+FO,16637,e$br_ord_limit_fut_sell_exceeded,Futures sell branch Order Value Limit has been exceeded.
+FO,16638,e$br_ord_limit_opt_buy_exceeded,Options buy branch Order Value Limit has been exceeded.
+FO,16639,e$br_ord_limit_opt_sell_exceeded,Options sell branch Order Value Limit has been exceeded.
+FO,16640,e$ur_ord_limit_fut_buy_exceeded,Futures buy used limit execeeded the user limit.
+FO,16641,e$ur_ord_limit_fut_sell_exceeded,Futures sell used limit execeeded the user limit.
+FO,16642,e$ur_ord_limit_opt_buy_exceeded,Options buy used limit execeeded the user limit.
+FO,16643,e$ur_ord_limit_opt_sell_exceeded,Options sell used limit execeeded the user limit.
+FO,16645,e$cant_appr_bhav_copy_generated,Cannot approve. Bhav Copy generated.
+FO,16646,e$Collateral_Lmt_Chk,Cannot modify.
+FO,16656,e$address_not_found,No address in the database.
+FO,16662,e$stk_in_popen,Contract is opening. Please wait for the contract to open.
+FO,16666,e$invalid_nnf_field,Invalid NNF field.
+FO,16667,e$gtcgtd_not_allowed,GTC GTD Orders not allowed.
+FO,16686,CLOSEOUT_ORDER_REJECT,This error code will be returned if Close out order rejected by the system.
+FO,16687,CLOSEOUT_FRZ_REJECT,This error code will be returned if the close out order entered is going into freeze. (Since Freeze is not allowed for close out orders)
+FO,16688,CLOSEOUT_NOT_ALLOWED,This error code will be returned if the close out order is not allowed in the system.
+FO,16690,CLOSEOUT_TRDMOD_REJECT,This error code will be returned when a Trade MOD request is placed by a broker in Close-out.
+FO,16706,PARTIAL_ORDER_REJECT,Cancelled by the System
+FO,16708,PARTIAL_QUICK_ORDER_CXL_REJ,System Error. Orders not completely cancelled by the system. Please request Quick CXL again
+FO,16713,e$price_diff_out_of_range,Price difference is beyond Operating Range.
+FO,16793,e$vc_order_rejected,Order Entered has invalid data.
+FO,16794,e$ssd_order_rejected,Order Entered has invalid data.
+FO,16795,e$order_cancelled_for_vc,Order cancelled mdue to voluntary close out.
+FO,16796,e$order_cancelled_for_ssd,Order cancelled due to OI violation.
+FO,16803,e$bo_price_out_of_range,Bulk Order rejected due to price freeze.
+FO,16804,e$bo_excess_quantity, Bulk Order rejected due to quantity Freeze.
+FO,16805,e$user_ineligible_for_bulk_orders,Trader not eligible for Bulk Order.
+FO,16806,e$user_not_allowed_for_regular,Trader allowed to enter only Bulk Order.
+FO,16807,e$account_debarred,The Account is Debarred by Exchange.
+FO,17039,EC_TRD_MOD_REJ_CLI_CP_MOD_NOT_ALLOWED,Client code/Participant modification not allowed
+FO,17045,ERROR_QUANTITY_LIM_EXCEEDS_QTY_VAL_LIM,Order Quantity Exceeds Quantity Value Limit for User.
+FO,17048,USER_TRD_MOD_DISABLED,Trade Modification Not Allowed for User.
+FO,17070,e$trd_price_out_of_stock_tpp,The Price is out of the current execution range
+CD,293,INVALID_INSTRUMENT_TYPE,Invalid instrument type.
+CD,509,ORDER_NUMBER_INVALID,Order does not exit.
+CD,8049,ORD_CXL_INITIATOR_AUC_NOT_ALLOWED,Initiator is not allowed to cancel auction order.
+CD,8485,AUCTION_NUMBER_INVALID,Auction number does not exit
+CD,16000,MARKET_CLOSED,The trading system is not available for trading.
+CD,16001,e$invalid_user,Header user ID is not equal to user ID in the order packet.
+CD,16003,OE_BAD_TRANS_CODE,System error was encountered. Please call the Exchange.
+CD,16004,e$user_already_signed_on,The user is already signed on.
+CD,16005,e$invalid_signoff,System error while trying to sign-off. Please call the Exchange.
+CD,16006,e$invalid_signon,Invalid sign-on. Please try again.
+CD,16007,e$signon_not_possible,Signing onto the trading system is restricted. Please try later on.
+CD,16011,e$duplicate_report_request,This report has already been requested.
+CD,16012,ERR_INVALID_SYMBOL,Invalid contract descriptor
+CD,16014,e$not_your_order,This order is not yours.
+CD,16015,e$not_your_fill,This trade is not yours.
+CD,16016,e$invalid_fill_number,Invalid trade number.
+CD,16019,e$stock_not_found,Stock not found.
+CD,16035,SECURITY_NOT_AVAILABLE,Security is unavailable for trading at this time. Please try later.
+CD,16041,BROKER_NOT_FOUND,Trading member does not exit in the system.
+CD,16042,USER_NOT_FOUND,Dealer does not exist in the system.
+CD,16043,DUPLICATE_RECORD,This record already exits on the NEAT system.
+CD,16044,e$order_modified,Order has been modified. Please try again.
+CD,16049,STOCK_SUSPENDED,Stock is suspended.
+CD,16052,ERR_FUNCTION_NOT_AVAILABLE,Function Not Available
+CD,16053,e$change_password,"Your password has expired, must be changed."
+CD,16054,ERR_INVALID_BRANCH,Invalid branch for trading member.
+CD,16056,OE_PROGRAM_ERROR,Program error.
+CD,16086,e$dup_trd_cxl_request,Duplicate trade cancel request.
+CD,16098,ERR_INVALID_BUYER_USER_ID,Invalid trader ID for buyer.
+CD,16099,ERR_INVALID_SELLER_USER_ID,Invalid trader ID for buyer.
+CD,16100,e$invalid_version,Your system version has not been updated.
+CD,16104,OE_SYSTEM_ERROR,System could not complete your transaction - Admin notified.
+CD,16148,ERR_INVALID_USER_ID,Invalid Dealer ID entered.
+CD,16154,ERR_INVALID_TRADER_ID,Invalid Trader ID entered.
+CD,16169,OE_ATO_IN_OPEN,Order priced ATO cannot be entered when a security is open.
+CD,16198,e$dup_request,Duplicate modification or cancellation request for the same trade has been encountered.
+CD,16227,e$only_cp_allowed,Only market orders are allowed in postclose.
+CD,16228,e$sl_mit_nt_not_allowed_pclose,"SL, MIT or NT orders are not allowed during Post Close."
+CD,16229,e$gtc_gtd_ord_not_allowed_pclose,GTC GTD or GTDays orders are Not Allowed during Post Close.
+CD,16230,OE_CONT_MOD_NOT_ALLOWED,Continuous session orders cannot be modified.
+CD,16231,TRD_CONT_MOD_NOT_ALLOWED,Continuous session trades cannot be changed.
+CD,16233,STR_PRO_PARTIVIPANT_INVALID,Proprietary requests cannot be made for participant.
+CD,16251,OE_DIFF_TRD_MOD_VOL,Trade modification with different quantities is received.
+CD,16273,RECORD_NOT_FOUND,Record does not exit.
+CD,16278,OE_MARKETS_CLOSED,The markets have not been opened for trading.
+CD,16279,OE_SECURITY_NOT_ADMITTED,The contract has not yet been admitted for trading.
+CD,16280,OE_SECURITY_MATURED,The Contract has matured.
+CD,16281,OE_SECURITY_EXPELLED,The security has been expelled.
+CD,16282,OE_ISSUED_CAP_EXCEEDS,The order quantity is greater than the issued capital.
+CD,16283,OE_PRICE_NOT_MULT,The order price is not multiple of the tick size.
+CD,16284,OE_PRICE_EXCEEDS_DAY_MIN_MAX,The order price is out of the day‟s price range.
+CD,16285,OE_IS_NOT_ACTIVE,The broker is not active.
+CD,16300,e$system_wrong_state,System is in a wrong state to make the requested change.
+CD,16303,OE_AUCTION_PENDING,The auction is pending.
+CD,16307,OE_QTY_FREEZE_CAN,The order has been canceled due to quantity freeze.
+CD,16308,OE_PRICE_FREEZE_CAN,The order has been canceled due to price freeze.
+CD,16311,OE_SOL_PERIOD_OVER,The Solicitor period for the Auction is over.
+CD,16312,OE_COMP_PERIOD_OVER,The Competitor period for the Auction is over.
+CD,16313,OE_AUC_PERIOD_GREATER,The Auction period will cross market close time.
+CD,16315,OE_LIMIT_TRIGGER,The limit price is worse than the trigger price.
+CD,16316,OE_TRIGGER_PRICE_NOT_MULT,The trigger price is not a multiple of tick size.
+CD,16317,OE_NO_AON_ATTRIB,AON attribute not allowed.
+CD,16318,OE_NO_MF_ATTRIB,MF attribute not allowed.
+CD,16319,OE_NO_AON_IN_ATTRIB1,AON attribute not allowed at Security level.
+CD,16320,OE_NO_MF_ATTRIB1,MF attribute not allowed at security level.
+CD,16321,OE_MF_GREATER_DISC,MF quantity is greater than disclosed quantity
+CD,16322,OE_MF_NOT_MULT,MF quantity is not a multiple of regular lot.
+CD,16323,OE_MF_GREATER_ORIGINAL,MF quantity is greater than Original quantity.
+CD,16324,OE_DISC_GREATER_ORIGINAL,Disclosed quantity is greater than Original quantity.
+CD,16325,OE_DISC_NOT_MULT,Disclosed quantity is not a multiple of regular lot.
+CD,16326,OE_GTD_GREATER,GTD is greater than that specified at the trading system.
+CD,16327,OE_QUANTITY_GERATER_RL,Odd lot quantity cannot be greater than or equal to regular lot size.
+CD,16328,OE_QUANTITY_NOT_MULT_RL,Quantity is not a multiple of regular lot.
+CD,16329,OE_BROKER_NOT_PERMITTED,Trading Member not permitted in the market.
+CD,16330,OE_IS_SUSPENDED,Security is suspended.
+CD,16333,OE_BRANCH_LI MIT_EXCEEDED,Branch Order Value Limit has been exceeded.
+CD,16343,OE_ORD_CAN_CHANGED,The order to be cancelled has changed.
+CD,16344,OE_ORD_CANNOT_CANCEL,The order cannot be cancelled.
+CD,16345,OE_INIT_ORD_CANCEL,Initiator order cannot be cancelled.
+CD,16346,OE_ORD_CANNOT_MODIFY,Order cannot be modified.
+CD,16348,ERR_TRADING_NOT_ALLOWED,Trading is not allowed in this market.
+CD,16357,OE_NT_REJECTED,Control has rejected the Negotiated Trade.
+CD,16363,CHG_ST_EXISTS,Status is in the required state.
+CD,16369,OE_SECURITY_IN_PREOPEN,Contract is in preopen.
+CD,16372,OE_INQ_NOT_ALLOWED,Order entry not allowed for user as it is of inquiry type.
+CD,16387,OE_SECURITY_INELIGIBLE,Contract not allowed to trader in.
+CD,16392,TURNOVER_LIMIT_NOT_PROVIDED,Turnover limit not provided. Please contact Exchange.
+CD,16400,OE_MAX_DQ_ALLOWED,DQ is less than minimum quantity allowed.
+CD,16404,OE_ADMIN_SUSP_CAN,Order has been cancelled due to freeze admin suspension.
+CD,16405,e$invalid_buy_sell_type,BUY – SELL type entered is invalid.
+CD,16414,e$invalid_pro_client,Pro Cli field is invalid (something other than Pro – 2 or Cli – 1)
+CD,16415,e$invalid_instructions,Invalid combination of book type and instructions (order_type).
+CD,16416,e$invalid_order_parameters,Invalid combination of mf/aon/disclosed volume.
+CD,16419,INVALID_ORDER,This error code will be returned for invalid data in the order packet.
+CD,16440,e$gtd_gt_maturity,GTD is greater than Maturity date.
+CD,16441,e$dq_ord_not_allowed_popen,DQ orders are not allowed in preopen.
+CD,16442,e$st_ord_not_allowed_popen,ST orders are not allowed in preopen.
+CD,16443,e$ord_lim_exceeds_ord_val_lim,Order value exceeds the order limit value.
+CD,16445,SL_NOT_ALLOWED,Stop Loss orders are not allowed.
+CD,16446,MIT_NOT_ALLOWED,Market If Touched orders are not allowed.
+CD,16447,E$ord_not_allowed_in_preopen,Order entry not allowed in Pre-open.
+CD,16500,e$not_allowed,Ex/Pl not allowed.
+CD,16501,e$invalid_ex_pl_char,Invalid ExPl flag value.
+CD,16513,e$rejection_not_allowed,Ex/Pl rejection not allowed.
+CD,16514,e$not_modifiable,Not modifiable.
+CD,16518,e$tm_cm_does_not_exist,"Clearing member, Trading Member link not found."
+CD,16521,e$not_clg_mem,Not a clearing member.
+CD,16523,e$user_not_corp_mgr,User in not a corporate manager.
+CD,16529,e$not_valid_fo_contract,Not a valid derivative contract.
+CD,16532,e$pm_cm_invalid,Clearing member Participant link not found.
+CD,16533,e$corp_mgr_vu_mod,Enter either TM or Participant.
+CD,16541,e$invalid_participant,Participant is invalid.
+CD,16550,e$trade_approved_by_cm,Trade cannot be modified /cancelled. It has already been approved by CM.
+CD,16552,e$cm_stock_suspended,Stock has been suspended.
+CD,16554,e$broker_not_permitted_in_fut,Trading Member not permitted in Futures.
+CD,16555,e$broker_not_permitted_in_opt,„Trading Member not permitted in Options.‟
+CD,16556,e$qty_less_than_min_lot,Quantity less than the minimum lot size.
+CD,16557,e$disc_qty_less_than_min_lot,Disclose quantity less than the minimum lot size.
+CD,16558,e$mf_qty_less_than_min_lot,Minimum fill is less than the minimum lot size.
+CD,16560,e$already_rejected,The give up trade has already been rejected.
+CD,16561,e$nt_orders_not_allowed,Negotiated Orders not allowed.
+CD,16562,e$nt_trade_not_allowed,Negotiated Trade not allowed.
+CD,16566,e$inconsistent_broker_branch,User does not belong to Broker or Branch.
+CD,16570,M$post_close_start,The market is in post-close.
+CD,16571,M$post_close_ended,The Closing Session has ended.
+CD,16572,M$post_close_trades,Closing Session trades have been generated.
+CD,16573,e$invalid_msg_length,Message length is invalid.
+CD,16574,e$invalid_open_close_type,Open - Close type entered is invalid.
+CD,16576,e$nnf_inq_req_exceeded,No. of nnf inquiry requests exceeded.
+CD,16577,e$participant_and_volume_changed,Both participant and volume changed.
+CD,16578,e$invalid_cover_uncover_type,Cover - Uncover type entered is invalid.
+CD,16579,e$illegal_cm_id,Giveup requested for wrong CM ID.
+CD,16580,e$illegal_participant,Order does not belong to the given participant.
+CD,16581,e$invalid_fill_price,Invalid trade price.
+CD,16583,e$pro_no_participant,For Pro order participant entry not allowed.
+CD,16585,e$invalid_account_no,Not a valid account number.
+CD,16586,e$allow_no_participant_order,Participant Order Entry Not Allowed.
+CD,16589,M$delete_all_orders,All continuous session orders are being deleted now.
+CD,16594,trade_qty_not_mod_after_giveup,"After giveup approve/reject, trade quantity cannot be modified."
+CD,16596,e$tmid_cant_exercise_for_ptcpnt,Trading member cannot put Ex/Pl request for Participant.
+CD,16597,e$cum_ur_ord_val_limit_exceeded,Branch limit should be greater than sum of user limits.
+CD,16598,e$branch_ord_val_limit_exceeded,Branch limit should be greater than used limit.
+CD,16602,e$dealer_value_limit_exceeds,Dealer value limit exceeds the set limit.
+CD,16604,e$participant_not_found,Participant not found.
+CD,16605,e$either_leg_failed,One leg of spread/2L failed.
+CD,16606,e$qty_greater_than_freeze_qty,Quantity greater than Freeze quantity.
+CD,16607,e$spread_not_allowed,Spread not allowed.
+CD,16608,e$spread_allowed_only_in_open,Spread allowed only when market is open.
+CD,16609,e$spread_allowed_if_stock_open,Spread allowed only when stock is open.
+CD,16610,e$qty_should_be_same,Both legs should have same quantity.
+CD,16611,e$ord_mod_qty_frz_not_allowed,Modified order qty freeze not allowed.
+CD,16612,e$trade_rec_modified,The trade record has been modified.
+CD,16615,e$tm_order_cant_be_modified,Order cannot be modified.
+CD,16616,e$tm_order_cant_be_cancelled,Order can not be cancelled.
+CD,16617,e$tm_trade_cant_be_manipulated,Trade can not be manipulated.
+CD,16619,e$pcm_cant_ex_pl_for_himself,PCM can not ex_pl for himself.
+CD,16620,e$clearing_member_cant_expl,Ex/Pl by clearing member for TM not allowed.
+CD,16621,e$cant_manipulate_expl_of_tm,Clearing member cannot change the Ex/Pl requests placed by Trading Member.
+CD,16625,e$cm_of_tm_suspended,Clearing member is suspended.
+CD,16626,e$expdate_not_in_ascending_ord,Expiry date not in ascending order.
+CD,16627,e$invalid_contract_comb,Invalid contract combination.
+CD,16628,e$bm_cannot_cancel_cm_orders,Branch manager cannot cancel corporate manager‟s order.
+CD,16629,e$bm_cannot_cancel_bm_orders,Branch manager cannot cancel other branch manager‟s order.
+CD,16630,e$cm_cannot_cancel_cm_orders,Corporate manager cannot cancel other corporate manager‟s order.
+CD,16631,e$spread_in_different_underlying,Spread not allowed for different underlying.
+CD,16632,e$invalid_cli_ac,Cli A/c number cannot be modified as trading member ID.
+CD,16636,e$br_ord_limit_fut_buy_exceeded,Futures buy branch Order Value Limit has been exceeded.
+CD,16637,e$br_ord_limit_fut_sell_exceeded,Futures sell branch Order Value Limit has been exceeded.
+CD,16638,e$br_ord_limit_opt_buy_exceeded,Options buy branch Order Value Limit has been exceeded.
+CD,16639,e$br_ord_limit_opt_sell_exceeded,Options sell branch Order Value Limit has been exceeded.
+CD,16640,e$ur_ord_limit_fut_buy_exceeded,Futures buy used limit execeeded the user limit.
+CD,16641,e$ur_ord_limit_fut_sell_exceeded,Futures sell used limit execeeded the user limit.
+CD,16642,e$ur_ord_limit_opt_buy_exceeded,Options buy used limit execeeded the user limit.
+CD,16643,e$ur_ord_limit_opt_sell_exceeded,Options sell used limit execeeded the user limit.
+CD,16645,e$cant_appr_bhav_copy_generated,Cannot approve. Bhav Copy generated.
+CD,16646,e$Collateral_Lmt_Chk,Cannot modify.
+CD,16656,e$address_not_found,No address in the database.
+CD,16662,e$stk_in_popen,Contract is opening. Please wait for the contract to open.
+CD,16666,e$invalid_nnf_field,Invalid NNF field.
+CD,16667,e$gtcgtd_not_allowed,GTC GTD Orders not allowed.
+CD,16686,CLOSEOUT_ORDER_REJECT,This error code will be returned if Close out order rejected by the system.
+CD,16687,CLOSEOUT_FRZ_REJECT,This error code will be returned if the close out order entered is going into freeze. (Since Freeze is not allowed for close out orders)
+CD,16688,CLOSEOUT_NOT_ALLOWED,This error code will be returned if the close out order is not allowed in the system.
+CD,16690,CLOSEOUT_TRDMOD_REJECT,This error code will be returned when a Trade MOD request is placed by a broker in Close-out.
+CD,16706,PARTIAL_ORDER_REJECT,Cancelled by the System
+CD,16708,PARTIAL_QUICK_ORDER_CXL_REJ,System Error. Orders not completely cancelled by the system. Please request Quick CXL again
+CD,16713,e$price_diff_out_of_range,Spread order price difference is out of range.
+CD,16793,e$vc_order_rejected,Order Entered has invalid data.
+CD,16794,e$ssd_order_rejected,Order Entered has invalid data.
+CD,16795,e$order_cancelled_for_vc,Order cancelled mdue to voluntary close out.
+CD,16796,e$order_cancelled_for_ssd,Order cancelled due to OI violation.
+CD,16807,e$account_debarred,The account is debarred from trading.
+CD,17036,e$mba_inq_not_allowed,MBA inquiry is not allowed for this contract
+CD,17037,e$mba_insuff_record,insufficient record for MBA inquiry
+CD,17038,e$outstanding_order_present,Order is outstanding.
+CD,17039,e$pro_cli_mod_not_allowed,Pro Cli Modification not allowed for the Order.
+CD,17045,e$ord_qty_exceeds_qty_val_lim,Order Quantity Exceeds Quantity Value Limit for User.
+CD,17046,e$user_type_trd_mod_disabled,Trade Modification Not Allowed for User Type.
+CD,17047,e$tm_trade_mod_not_allowed,Trade Modification not Allowed for Broker.
+CD,17048,e$user_trd_mod_disabled,Trade Modification Not Allowed for User.
+CD,17070,e$trd_price_out_of_stock_tpp,The Price is out of the current execution range
