@@ -10,12 +10,11 @@ def get_codes(retry: int=1) -> pd.DataFrame:
         return errcodes
     except Exception as e:
         print(f"Error occured :: {e}")
+        get_codes.cache_clear()
         if retry <= 3:
             print(f"Retrying :: {retry}")
-            get_codes.cache_clear()
             return get_codes(retry= retry+1)
         else:
-            get_codes.cache_clear()
             return pd.DataFrame()
 
 def check_error(
